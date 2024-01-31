@@ -14,7 +14,7 @@ ColorPulse is a straightforward and responsive web application that brings color
    - Use checkboxes to select your preferred colors.
 
 2. **FPS Control:**
-   - Adjust the Frames Per Second (FPS) slider to control the speed of color transitions.
+   - Adjust the Frames Per Second (FPS) to control the speed of color transitions.
 
 3. **Dark/Light Mode:**
    - Toggle between dark and light themes for a personalized viewing experience.
