@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Pulse</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <button id="ToggleThemeBtn">ToggleTheme</button>
+    <div>
+    <h1 id="heading">Color Pulse</h1>
+    <div class="flex-container">
+      <div class="output-container">
+        <div id="outputDiv"></div>
+      </div>
+
+      <div class="control-container">
+        <div class="color-container">
+          <label> <input type="checkbox" id="redCheckbox" /> Red </label>
+          <label> <input type="checkbox" id="orangeCheckbox" /> Orange </label>
+          <label> <input type="checkbox" id="yellowCheckbox" /> Yellow </label>
+          <label> <input type="checkbox" id="greenCheckbox" /> Green </label>
+          <label> <input type="checkbox" id="blueCheckbox" /> Blue </label>
+          <label> <input type="checkbox" id="indigoCheckbox" /> Indigo </label>
+          <label> <input type="checkbox" id="violetCheckbox" /> Violet </label>
+        </div>
+
+        <div class="input-cotainer">
+          <div>
+            <label for="fps_value">Enter fps:</label>
+            <input
+              placeholder="FPS value"
+              type="number"
+              name="fps_value"
+              id="fpsInputField"
+              value="1"
+              min="1"
+              max="100"
+            />
+            <button id="testBtn">Test</button><br />
+          </div>
+          <div>
+          <span id="infoTag">(Default value is 1 fps)</span>
+        </div> 
+        <div>
+          <p>Welcome to ColorPulse – a vibrant and interactive playground of hues! Customize your visual experience by setting the beats per second, and watch as the colors dance and pulse in rhythmic harmony. Immerse yourself in a dynamic canvas of changing colors, creating a lively and captivating spectacle. Let the ColorPulse experience add a splash of excitement to your day!</p>
+        </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
